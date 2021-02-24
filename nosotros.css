@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+/*-----HEADER-----*/
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 8%;
+flex-wrap: wrap;
+}
+
+
+
+.header div.about{
+    width: 40%;
+}
+.header div.about h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.header div.about p{
+    
+    font-weight: 400;
+    
+}
+
+
+/*-----MAIN-----*/
+.integrantes{
+    text-align: center;
+}
+.main_container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-bottom: 100px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.main_container div.left_zone img{
+    height: 320px;
+    width: 238px;
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
+.main_container div.left_zone h5{
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main_container div.left_zone img:hover{
+    opacity: 80%;
+}
+.main_container div.right_zone{
+    position: relative;
+    top: 80px;
+    
+}
+.main_container div.right_zone img{
+    height: 320px;
+    width: 238px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.main_container div.right_zone img:hover{
+    opacity: 80%;
+}
+.main_container div.right_zone h5{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/*-----FOOTER-----*/
+.footer{
+    text-align: center;
+}
